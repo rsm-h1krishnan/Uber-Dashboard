@@ -1,5 +1,4 @@
 Uber Trip Analysis: Data-Driven Operational Insights
-
 Project Overview
 This project involved a comprehensive analysis of Uber trip data using Power BI to decode complex booking trends, revenue streams, and trip efficiencies. By transforming raw data into three specialized dashboard layers, this analysis provides stakeholders with the granular insights needed to optimize driver allocation, refine pricing models, and enhance customer satisfaction.
 
@@ -15,21 +14,23 @@ Financial Impact: Analyzing revenue patterns across different payment methods an
 Demand Forecasting: Mapping high-traffic pickup and drop-off points to optimize driver positioning.
 
 Key Performance Indicators (KPIs)
-The dashboard monitors six high-level metrics to provide an immediate snapshot of health:
+The dashboard monitors six high-level metrics to provide an immediate snapshot of business health:
 
-Total Bookings: 103.7K trips.
+Total Bookings: 103.7K trips recorded over the period.
 
 Total Booking Value: $1.6M in gross revenue.
 
 Avg Booking Value: $15.00 per ride.
 
-Total Trip Distance: 349K miles covered.
+Total Trip Distance: 349K miles covered by the fleet.
 
-Avg Trip Distance & Time: 3 miles / 16 minutes.
+Average Trip Distance: 3 miles per customer trip.
+
+Average Trip Time: 16 minutes per duration.
 
 Technical Implementation & Dashboard Architecture
 1. Overview Analysis (Strategic Layer)
-Focused on the "Big Picture," this dashboard uses a Disconnected Table and Measure Selector to allow users to toggle the entire view between Total Bookings, Booking Value, and Distance.
+Focused on the "Big Picture," this dashboard uses a Measure Selector to allow users to toggle the entire view between Total Bookings, Booking Value, and Distance.
 
 Payment & Trip Type: Breakdown of Card vs. Cash usage and Day vs. Night patterns (34.72% of trips occur at night).
 
@@ -40,18 +41,18 @@ Designed to optimize driver supply, this layer utilizes a Heatmap (Hour of Day v
 
 Demand Peaks: Area charts track bookings in 10-minute intervals to identify exact rush-hour windows.
 
-Weekly Cycles: Line charts compare weekday vs. weekend demand (Sat/Sun showing peak volumes of 18.7K - 19.2K).
+Weekly Cycles: Line charts compare weekday vs. weekend demand, with Saturday and Sunday showing peak volumes (up to 19.2K).
 
 3. Details & Location Analysis (Granular Layer)
-Leverages Drill-Through functionality and complex data modeling (activating inactive relationships) to track the journey from specific Pickup points to Drop-off locations.
+Leverages Drill-Through functionality and complex data modeling to track the journey from specific Pickup points to Drop-off locations.
 
 Top 5 Locations: Identifies the highest-traffic zones for strategic resource allocation.
 
 UI Enhancements: Includes "Clear All Filters" buttons and Bookmarks for a seamless, app-like user experience.
 
 Top Insights
-Peak Demand: Demand rises steadily through the morning, peaking in the late afternoon/evening hours (15:00 - 18:00).
+Peak Demand Window: Demand rises steadily through the morning, peaking in the late afternoon/evening hours between 15:00 and 18:00.
 
-Revenue Concentration: Weekend bookings significantly outperform mid-week numbers, suggesting a need for weekend-specific surge pricing or driver incentives.
+Weekend Revenue Concentration: Saturday and Sunday significantly outperform mid-week numbers, suggesting a need for weekend-specific driver incentives.
 
-Trip Efficiency: With an average trip of 3 miles taking 16 minutes, the data suggests heavy urban congestion or short-distance city commuting as the primary use case
+Urban Commuter Use Case: With an average trip of 3 miles taking 16 minutes, the data reflects heavy urban congestion or short-distance city commuting.
