@@ -1,9 +1,8 @@
-# 🚗 Uber Trip Analysis: Data-Driven Operational Insights
+#  Uber Trip Analysis: Data-Driven Operational Insights
 
 ## **Project Overview**
 This project involved a comprehensive analysis of Uber trip data using **Power BI** to decode complex booking trends, revenue streams, and trip efficiencies. By transforming raw data into three specialized dashboard layers, this analysis provides stakeholders with the granular insights needed to optimize driver allocation, refine pricing models, and enhance customer satisfaction.
 
----
 
 ## **Strategic Business Objectives**
 The primary goal was to move beyond static reporting to a dynamic decision-support system. The analysis focused on:
@@ -13,7 +12,7 @@ The primary goal was to move beyond static reporting to a dynamic decision-suppo
 * **Financial Impact:** Analyzing revenue patterns across different payment methods and vehicle types.
 * **Demand Forecasting:** Mapping high-traffic pickup and drop-off points to optimize driver positioning.
 
----
+
 
 ## **Key Performance Indicators (KPIs)**
 The dashboard monitors six high-level metrics to provide an immediate snapshot of business health:
@@ -25,7 +24,6 @@ The dashboard monitors six high-level metrics to provide an immediate snapshot o
 * **Average Trip Distance:** 3 miles per customer trip.
 * **Average Trip Time:** 16 minutes per duration.
 
----
 
 ## **Technical Implementation & Dashboard Architecture**
 
@@ -47,7 +45,6 @@ Leverages **Drill-Through functionality** and complex data modeling to track the
 * **Top 5 Locations:** Identifies the highest-traffic zones for strategic resource allocation.
 * **UI Enhancements:** Includes "Clear All Filters" buttons and Bookmarks for a seamless, app-like user experience.
 
----
 
 ## **Top Insights**
 * **Peak Demand Window:** Demand rises steadily through the morning, peaking in the late afternoon/evening hours between 15:00 and 18:00.
